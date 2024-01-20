@@ -133,7 +133,7 @@
 &trans           &trans          &trans          &trans          &trans                                                                                          &trans          &trans             &trans           &trans            &trans
 &trans           &kp LC(LA(N1))  &kp LC(LA(N2))  &kp LC(LA(N3))  &kp LC(LA(N4))  &kp LC(LA(N5))                                                  &kp LC(LA(N6))  &kp LC(LA(N7))  &kp LC(LA(N8))     &kp LC(LA(N9))   &kp LC(LA(N0))    &trans
 &trans           &kp LC(LA(Q))   &kp LC(LA(W))   &kp LC(LA(E))   &kp LC(LA(R))   &kp LC(LA(T))                                                   &kp LC(LA(Y))   &kp LC(LA(U))   &kp LC(LA(I))      &kp LC(LA(O))    &kp LC(LA(P))     &kp LC(LA(BSLH))
-&trans           &kp LC(LA(A))   &kp LC(LA(S))   &kp LC(LA(D))   &kp LC(LA(F))   &kp LC(LA(G))                                                   &kp LC(LA(H))   &kp LC(LA(J))   &kp LC(LA(K))      &kp LC(LA(L))    &kp LC(LA(SEMI))  &trans
+&trans           &kp LC(LA(A))   &kp LC(LA(S))   &kp LC(LA(D))   &to 0           &kp LC(LA(G))                                                   &kp LC(LA(H))   &kp LC(LA(J))   &kp LC(LA(K))      &kp LC(LA(L))    &kp LC(LA(SEMI))  &trans
 &to_kp LSHIFT 0  &kp LC(LA(Z))   &kp LC(LA(X))   &kp LC(LA(C))   &kp LC(LA(V))   &kp LC(LA(B))   &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LA(N))   &kp LC(LA(M))   &kp LC(LA(COMMA))  &kp LC(LA(DOT))  &kp LC(LA(FSLH))  &trans
 &trans           &trans          &trans          &trans          &trans                          &trans  &trans  &trans  &trans  &trans  &trans                  &trans          &trans             &trans           &trans            &trans
             >;
@@ -141,23 +141,23 @@
 
         keypad {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                                                        &trans      &trans        &trans         &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans        &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &kp KP_COMMA  &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &kp KP_DOT    &kp KP_N4   &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans        &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp KP_N0        &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans                &trans      &trans        &trans         &trans           &trans
+&trans  &trans  &trans  &trans  &trans                                                                        &trans     &trans        &trans         &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &none         &kp UNDER  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &kp KP_COMMA  &kp KP_N7  &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &kp KP_DOT    &kp KP_N4  &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &none         &kp KP_N1  &kp KP_N2     &kp KP_N3      &kp KP_N0        &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans                &trans     &trans        &trans         &trans           &trans
             >;
         };
 
         sym {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                                                        &trans        &trans     &trans         &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans        &trans        &trans     &trans         &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &kp LA(UP)    &kp LA(LEFT)  &kp UP     &kp LA(RIGHT)  &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &kp LA(DOWN)  &kp LEFT      &kp DOWN   &kp RIGHT      &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans        &trans        &trans     &trans         &trans   &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans                &kp HOME      &kp PG_UP  &kp PG_DN      &kp END  &trans
+&trans     &trans    &trans             &trans     &trans                                                                                 &trans        &trans     &trans         &trans    &trans
+&kp GRAVE  &kp EXCL  &kp AT             &kp POUND  &kp DOLLAR  &kp PERCENT                                                  &kp CARET     &kp AMPS      &kp STAR   &kp LPAR       &kp RPAR  &trans
+&kp TILDE  &kp LT    &kp DOUBLE_QUOTES  &kp UNDER  &kp GT      &kp TAB                                                      &kp LA(UP)    &kp LA(LEFT)  &kp UP     &kp LA(RIGHT)  &kp PIPE  &kp BACKSLASH
+&trans     &kp PLUS  &kp SQT            &kp MINUS  &kp EQUAL   &kp ESCAPE                                                   &kp LA(DOWN)  &kp LEFT      &kp DOWN   &kp RIGHT      &kp SEMI  &kp COLON
+&trans     &kp LBKT  &kp RBKT           &kp LBRC   &kp RBRC    &kp SPACE    &trans  &trans  &trans  &trans  &trans  &trans  &kp ENTER     &kp QMARK     &kp COMMA  &kp DOT        &kp FSLH  &trans
+&trans     &trans    &trans             &trans     &trans                   &trans  &trans  &trans  &trans  &trans  &trans                &kp HOME      &kp PG_UP  &kp PG_DN      &kp END   &trans
             >;
         };
 
