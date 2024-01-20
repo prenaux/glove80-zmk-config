@@ -140,23 +140,23 @@
             // | MAGIC | HOME| END | LEFT | RIGHT|      | BSPC  | DEL   | LALT  | | RALT  | RET   | SPACE |      |  UP   | DOWN  |  [   |   ]   | PGDN |
 
             bindings = <
-&kp F1                          &kp F2     &kp F3   &kp F4    &kp F5                                                                                                              &kp F6    &kp F7     &kp F8    &kp F9     &kp F10
-&hp_kp LS(LA(LC(LGUI))) ESCAPE  &kp N1     &kp N2   &kp N3    &kp N4    &kp N5                                                                                            &kp N6  &kp N7    &kp N8     &kp N9    &kp N0     &kp BACKSPACE
-&kp TAB                         &kp Q      &kp W    &kp E     &kp R     &kp T                                                                                             &kp Y   &kp U     &kp I      &kp O     &kp P      &kp BSLH
-&to 1                           &kp A      &kp S    &kp D     &kp F     &kp G                                                                                             &kp H   &kp J     &kp K      &kp L     &kp SEMI   &kp ENTER
-&sk LSHIFT                      &kp Z      &kp X    &kp C     &kp V     &tp_mo 4 B  &sk LSHIFT        &kp LCTRL           &to_kp LGUI 0  &kp LGUI  &kp RCTRL  &sk RSHIFT  &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH   &sk RSHIFT
-&kp EQUAL                       &kp GRAVE  &kp SQT  &kp LBKT  &kp RBKT              &tp_kp LALT BSPC  &tp_kp LCTRL ENTER  &to_kp LALT 1  &kp RALT  &mo 3      &kp SPACE           &kp LEFT  &kp UP     &kp DOWN  &kp RIGHT  &kp MINUS
+&kp LS(LA(LC(LGUI)))  &kp F1     &kp F2   &kp F3    &kp F4                                                                                                              &kp F5    &kp F6     &kp F7    &kp F8     &magic 5 0
+&kp ESCAPE            &kp N1     &kp N2   &kp N3    &kp N4    &kp N5                                                                                            &kp N6  &kp N7    &kp N8     &kp N9    &kp N0     &kp BACKSPACE
+&kp TAB               &kp Q      &kp W    &kp E     &kp R     &kp T                                                                                             &kp Y   &kp U     &kp I      &kp O     &kp P      &kp BSLH
+&to 1                 &kp A      &kp S    &kp D     &kp F     &kp G                                                                                             &kp H   &kp J     &kp K      &kp L     &kp SEMI   &kp ENTER
+&sk LSHIFT            &kp Z      &kp X    &kp C     &kp V     &tp_mo 4 B  &sk LSHIFT        &kp LCTRL           &to_kp LGUI 0  &kp LGUI  &kp RCTRL  &sk RSHIFT  &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH   &sk RSHIFT
+&kp EQUAL             &kp GRAVE  &kp SQT  &kp LBKT  &kp RBKT              &tp_kp LALT BSPC  &tp_kp LCTRL ENTER  &to_kp LALT 1  &kp RALT  &mo 3      &kp SPACE           &kp LEFT  &kp UP     &kp DOWN  &kp RIGHT  &kp MINUS
             >;
         };
 
         ham_keys {
             bindings = <
-&trans           &trans          &trans          &trans          &trans                                                                                          &trans          &trans             &trans           &trans            &trans
-&trans           &kp LC(LA(N1))  &kp LC(LA(N2))  &kp LC(LA(N3))  &kp LC(LA(N4))  &kp LC(LA(N5))                                                  &kp LC(LA(N6))  &kp LC(LA(N7))  &kp LC(LA(N8))     &kp LC(LA(N9))   &kp LC(LA(N0))    &trans
-&trans           &kp LC(LA(Q))   &kp LC(LA(W))   &kp LC(LA(E))   &kp LC(LA(R))   &kp LC(LA(T))                                                   &kp LC(LA(Y))   &kp LC(LA(U))   &kp LC(LA(I))      &kp LC(LA(O))    &kp LC(LA(P))     &kp LC(LA(BSLH))
-&trans           &kp LC(LA(A))   &kp LC(LA(S))   &kp LC(LA(D))   &to 0           &kp LC(LA(G))                                                   &kp LC(LA(H))   &kp LC(LA(J))   &kp LC(LA(K))      &kp LC(LA(L))    &kp LC(LA(SEMI))  &trans
-&to_kp LSHIFT 0  &kp LC(LA(Z))   &kp LC(LA(X))   &kp LC(LA(C))   &kp LC(LA(V))   &kp LC(LA(B))   &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LA(N))   &kp LC(LA(M))   &kp LC(LA(COMMA))  &kp LC(LA(DOT))  &kp LC(LA(FSLH))  &trans
-&trans           &trans          &trans          &trans          &trans                          &trans  &trans  &trans  &trans  &trans  &trans                  &trans          &trans             &trans           &trans            &trans
+&trans           &trans          &trans          &trans          &trans                                                                                              &trans          &trans             &trans           &trans            &trans
+&trans           &kp LC(LA(N1))  &kp LC(LA(N2))  &kp LC(LA(N3))  &kp LC(LA(N4))  &kp LC(LA(N5))                                                      &kp LC(LA(N6))  &kp LC(LA(N7))  &kp LC(LA(N8))     &kp LC(LA(N9))   &kp LC(LA(N0))    &trans
+&trans           &kp LC(LA(Q))   &kp LC(LA(W))   &kp LC(LA(E))   &kp LC(LA(R))   &kp LC(LA(T))                                                       &kp LC(LA(Y))   &kp LC(LA(U))   &kp LC(LA(I))      &kp LC(LA(O))    &kp LC(LA(P))     &kp LC(LA(BSLH))
+&trans           &kp LC(LA(A))   &kp LC(LA(S))   &kp LC(LA(D))   &to 0           &kp LC(LA(G))                                                       &kp LC(LA(H))   &kp LC(LA(J))   &kp LC(LA(K))      &kp LC(LA(L))    &kp LC(LA(SEMI))  &trans
+&to_kp LSHIFT 0  &kp LC(LA(Z))   &kp LC(LA(X))   &kp LC(LA(C))   &kp LC(LA(V))   &tp_mo 4 LC(LA(B))  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LA(N))   &kp LC(LA(M))   &kp LC(LA(COMMA))  &kp LC(LA(DOT))  &kp LC(LA(FSLH))  &trans
+&trans           &trans          &trans          &trans          &trans                              &trans  &trans  &trans  &trans  &trans  &trans                  &trans          &trans             &trans           &trans            &trans
             >;
         };
 
@@ -195,12 +195,12 @@
 
         magic_layer {
             bindings = <
-&bt BT_CLR   &none            &none            &none            &none                                                                                     &none  &none  &none  &none  &bt BT_CLR_ALL
-&none        &none            &none            &none            &none            &none                                                             &none  &none  &none  &none  &none  &none
-&none        &rgb_ug RGB_SPI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_BRI  &rgb_ug RGB_TOG                                                   &none  &none  &none  &none  &none  &none
-&bootloader  &rgb_ug RGB_SPD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF                                                   &none  &none  &none  &none  &none  &bootloader
-&sys_reset   &none            &none            &none            &none            &none            &bt_2  &bt_3  &none         &none  &none  &none  &none  &none  &none  &none  &none  &sys_reset
-&none        &none            &none            &none            &none                             &bt_0  &bt_1  &out OUT_USB  &none  &none  &none         &none  &none  &none  &none  &none
+&bt BT_CLR   &bt_0            &bt_1            &bt_2            &bt_3                                                                                     &out OUT_USB  &none  &none  &none  &bt BT_CLR_ALL
+&none        &none            &none            &none            &none            &none                                                             &none  &none         &none  &none  &none  &none
+&none        &rgb_ug RGB_SPI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_BRI  &rgb_ug RGB_TOG                                                   &none  &none         &none  &none  &none  &none
+&bootloader  &rgb_ug RGB_SPD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF                                                   &none  &none         &none  &none  &none  &bootloader
+&sys_reset   &none            &none            &none            &none            &none            &bt_2  &bt_3  &none         &none  &none  &none  &none  &none         &none  &none  &none  &sys_reset
+&bt BT_CLR   &none            &none            &none            &none                             &bt_0  &bt_1  &out OUT_USB  &none  &none  &none         &none         &none  &none  &none  &bt BT_DISC 0
             >;
         };
     };
