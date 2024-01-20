@@ -177,22 +177,28 @@
         to_base_layer: to_base_layer {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&rgb_ug RGB_COLOR_HSB(184,100,50) &to 0>;
+            bindings = <&to 0 &rgb_ug RGB_COLOR_HSB(184,100,27)>;
             label = "TO_BASE_LAYER";
+            wait-ms = <20>;
+            tap-ms = <20>;
         };
 
         to_numpad_layer: to_numpad_layer {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&rgb_ug RGB_COLOR_HSB(0,100,38) &to 2>;
+            bindings = <&to 2 &rgb_ug RGB_COLOR_HSB(134,100,21)>;
             label = "TO_NUMPAD_LAYER";
+            wait-ms = <20>;
+            tap-ms = <20>;
         };
 
         to_ham_keys: to_ham_keys {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&rgb_ug RGB_COLOR_HSB(35,100,50) &to 1>;
+            bindings = <&to 1 &rgb_ug RGB_COLOR_HSB(37,100,25)>;
             label = "TO_HAM_KEYS";
+            wait-ms = <20>;
+            tap-ms = <20>;
         };
     };
 
