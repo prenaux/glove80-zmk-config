@@ -248,12 +248,12 @@
 
         sym {
             bindings = <
-&trans         &trans    &trans             &trans     &trans                                                                                 &trans        &trans     &trans         &trans    &trans
-&kp GRAVE      &kp EXCL  &kp AT             &kp POUND  &kp DOLLAR  &kp PERCENT                                                  &kp CARET     &kp AMPS      &kp STAR   &kp LPAR       &kp RPAR  &trans
-&kp TILDE      &kp LT    &kp DOUBLE_QUOTES  &kp UNDER  &kp GT      &kp TAB                                                      &kp LA(UP)    &kp LA(LEFT)  &kp UP     &kp LA(RIGHT)  &kp PIPE  &kp BACKSLASH
-&trans         &kp PLUS  &kp SQT            &kp MINUS  &kp EQUAL   &kp ESCAPE                                                   &kp LA(DOWN)  &kp LEFT      &kp DOWN   &kp RIGHT      &kp SEMI  &kp COLON
-&kp LG(LS(A))  &kp LBKT  &kp RBKT           &kp LBRC   &kp RBRC    &kp SPACE    &trans  &trans  &trans  &trans  &trans  &trans  &kp ENTER     &kp QMARK     &kp COMMA  &kp DOT        &kp FSLH  &trans
-&trans         &kp F10   &kp F11            &kp F12    &trans                   &trans  &trans  &trans  &trans  &trans  &trans                &kp HOME      &kp PG_UP  &kp PG_DN      &kp END   &trans
+&trans         &trans    &trans             &trans     &trans                                                                                  &trans     &trans     &trans     &trans    &trans
+&trans         &kp EXCL  &kp AT             &kp POUND  &kp DOLLAR  &kp PERCENT                                                  &kp CARET      &kp AMPS   &kp STAR   &kp LPAR   &kp RPAR  &trans
+&trans         &kp LT    &kp DOUBLE_QUOTES  &kp UNDER  &kp GT      &kp TILDE                                                    &kp PIPE       &kp LPAR   &kp UP     &kp RPAR   &trans    &trans
+&trans         &kp PLUS  &kp SQT            &kp MINUS  &kp EQUAL   &kp GRAVE                                                    &kp QMARK      &kp LEFT   &kp DOWN   &kp RIGHT  &kp SEMI  &trans
+&kp LG(LS(A))  &kp LBKT  &kp RBKT           &kp LBRC   &kp RBRC    &kp SPACE    &trans  &trans  &trans  &trans  &trans  &trans  &kp BACKSLASH  &kp COLON  &kp COMMA  &kp DOT    &kp FSLH  &trans
+&trans         &kp F10   &kp F11            &kp F12    &trans                   &trans  &trans  &trans  &trans  &trans  &trans                 &kp HOME   &kp PG_UP  &kp PG_DN  &kp END   &trans
             >;
         };
 
