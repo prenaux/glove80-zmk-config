@@ -215,12 +215,12 @@
             // | MAGIC | HOME| END | LEFT | RIGHT|      | BSPC  | DEL   | LALT  | | RALT  | RET   | SPACE |      |  UP   | DOWN  |  [   |   ]   | PGDN |
 
             bindings = <
-&rgb_ug_status_macro            &kp F1     &kp F2   &kp F3    &hold_to_keypad 0 F4                                                                                                                            &tp_mo 5 F5  &kp F6     &kp F7    &kp F8     &hrgbstatus_kp 0 F9
-&hp_kp LS(LA(LC(LGUI))) ESCAPE  &kp N1     &kp N2   &kp N3    &kp N4                &kp N5                                                                                                            &kp N6  &kp N7       &kp N8     &kp N9    &kp N0     &kp BACKSPACE
-&hm_kp 4 TAB                    &kp Q      &kp W    &kp E     &kp R                 &kp T                                                                                                             &kp Y   &kp U        &kp I      &kp O     &kp P      &hm_kp 4 BSLH
-&to_ham_keys                    &kp A      &kp S    &kp D     &kp F                 &kp G                                                                                                             &kp H   &kp J        &kp K      &kp L     &kp SEMI   &kp ENTER
-&sk LSHIFT                      &kp Z      &kp X    &kp C     &kp V                 &kp B   &sk LSHIFT        &kp LCMD            &mo_tap_to_hamkeys LEFT_CONTROL 0  &kp LGUI  &kp RCTRL  &sk RSHIFT  &kp N   &kp M        &kp COMMA  &kp DOT   &kp FSLH   &sk RSHIFT
-&kp EQUAL                       &kp GRAVE  &kp SQT  &kp LBKT  &kp RBKT                      &tp_kp LALT BSPC  &tp_kp LCTRL ENTER  &mo_tap_to_base LALT 0             &kp RALT  &sl 3      &kp SPACE           &kp LEFT     &kp UP     &kp DOWN  &kp RIGHT  &kp MINUS
+&rgb_ug_status_macro            &kp F1     &kp F2   &kp F3    &hold_to_keypad 0 F4                                                                                                                 &tp_mo 5 F5  &kp F6     &kp F7    &kp F8     &hrgbstatus_kp 0 F9
+&hp_kp LS(LA(LC(LGUI))) ESCAPE  &kp N1     &kp N2   &kp N3    &kp N4                &kp N5                                                                                                 &kp N6  &kp N7       &kp N8     &kp N9    &kp N0     &kp BACKSPACE
+&hm_kp 4 TAB                    &kp Q      &kp W    &kp E     &kp R                 &kp T                                                                                                  &kp Y   &kp U        &kp I      &kp O     &kp P      &hm_kp 4 BSLH
+&kp LCTRL                       &kp A      &kp S    &kp D     &kp F                 &kp G                                                                                                  &kp H   &kp J        &kp K      &kp L     &kp SEMI   &kp ENTER
+&mo_tap_to_hamkeys LSHIFT 0     &kp Z      &kp X    &kp C     &kp V                 &kp B   &kp LSHIFT     &kp LCMD    &mo_tap_to_hamkeys LEFT_CONTROL 0  &kp LGUI  &kp RCTRL  &kp RSHIFT  &kp N   &kp M        &kp COMMA  &kp DOT   &kp FSLH   &kp RSHIFT
+&kp EQUAL                       &kp GRAVE  &kp SQT  &kp LBKT  &kp RBKT                      &kp BACKSPACE  &kp DELETE  &mo_tap_to_base LALT 0             &kp RALT  &mo 3      &kp SPACE           &kp LEFT     &kp UP     &kp DOWN  &kp RIGHT  &kp MINUS
             >;
         };
 
