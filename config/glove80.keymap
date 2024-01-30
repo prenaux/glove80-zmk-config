@@ -200,6 +200,24 @@
             wait-ms = <20>;
             tap-ms = <20>;
         };
+
+        txt_rarrow: txt_rarrow {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp MINUS &kp GT>;
+            label = "TXT_RARROW";
+            wait-ms = <1>;
+            tap-ms = <1>;
+        };
+
+        txt_colcol: txt_colcol {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp COLON &kp COLON>;
+            label = "TXT_COLCOL";
+            wait-ms = <1>;
+            tap-ms = <1>;
+        };
     };
 
     keymap {
@@ -248,12 +266,12 @@
 
         sym {
             bindings = <
-&trans     &trans     &trans     &trans     &trans                                                                                 &trans        &trans     &trans         &trans     &trans
-&trans     &kp EXCL   &kp AT     &kp POUND  &kp DOLLAR  &kp PERCENT                                                  &kp CARET     &kp AMPS      &kp STAR   &kp TILDE      &trans     &trans
-&kp TILDE  &kp SQT    &kp LT     &kp LPAR   &kp RPAR    &kp GT                                                       &kp LA(UP)    &kp LA(LEFT)  &kp UP     &kp LA(RIGHT)  &kp PIPE   &kp BSLH
-&trans     &kp DQT    &kp UNDER  &kp MINUS  &kp EQUAL   &kp PLUS                                                     &kp LA(DOWN)  &kp LEFT      &kp DOWN   &kp RIGHT      &kp SEMI   &trans
-&kp SPACE  &kp GRAVE  &kp LBKT   &kp LBRC   &kp RBRC    &kp RBKT     &trans  &trans  &trans  &trans  &trans  &trans  &kp COLON     &kp QMARK     &kp COMMA  &kp DOT        &kp SLASH  &trans
-&trans     &kp F10    &kp F11    &kp F12    &trans                   &trans  &trans  &trans  &trans  &trans  &trans                &kp HOME      &kp PG_UP  &kp PG_DN      &kp END    &trans
+&trans     &trans     &trans     &trans     &trans                                                                                 &trans        &trans     &trans         &trans       &trans
+&trans     &kp EXCL   &kp AT     &kp POUND  &kp DOLLAR  &kp PERCENT                                                  &kp CARET     &kp AMPS      &kp STAR   &txt_rarrow    &txt_colcol  &trans
+&kp TILDE  &kp SQT    &kp LT     &kp LPAR   &kp RPAR    &kp GT                                                       &kp LA(UP)    &kp LA(LEFT)  &kp UP     &kp LA(RIGHT)  &kp PIPE     &kp BSLH
+&trans     &kp DQT    &kp UNDER  &kp MINUS  &kp EQUAL   &kp PLUS                                                     &kp LA(DOWN)  &kp LEFT      &kp DOWN   &kp RIGHT      &kp SEMI     &trans
+&kp SPACE  &kp GRAVE  &kp LBKT   &kp LBRC   &kp RBRC    &kp RBKT     &trans  &trans  &trans  &trans  &trans  &trans  &kp COLON     &kp QMARK     &kp COMMA  &kp DOT        &kp SLASH    &trans
+&trans     &kp F10    &kp F11    &kp F12    &trans                   &trans  &trans  &trans  &trans  &trans  &trans                &kp HOME      &kp PG_UP  &kp PG_DN      &kp END      &trans
             >;
         };
 
