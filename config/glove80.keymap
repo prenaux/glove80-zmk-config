@@ -39,13 +39,22 @@
             bindings = <&mo 2>, <&to 2>;
         };
 
-        hrgbstatus_kp: magic_hold_tap {
+        hrgbstatus_kp: hrgbstatus_kp {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HRGBSTATUS_KP";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            bindings = <&rgb_ug_status_macro>, <&kp>;
+        };
+
+        magic: magic_hold_tap {
             compatible = "zmk,behavior-hold-tap";
             label = "MAGIC_HOLD_TAP";
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
-            bindings = <&rgb_ug_status_macro>, <&kp>;
+            bindings = <&mo>, <&rgb_ug_status_macro>;
         };
 
         to_kp: to_kp {
