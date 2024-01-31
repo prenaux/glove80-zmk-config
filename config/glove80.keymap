@@ -128,19 +128,28 @@
             tapping-term-ms = <200>;
         };
 
-        mo_tap_to_hamkeys: mo_tap_to_hamkeys {
+        kp_tap_to_hamkeys: kp_tap_to_hamkeys {
             compatible = "zmk,behavior-hold-tap";
-            label = "MO_TAP_TO_HAMKEYS";
+            label = "KP_TAP_TO_HAMKEYS";
             bindings = <&kp>, <&to_ham_keys>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
 
-        mo_tap_to_base: mo_tap_to_base {
+        kp_tap_to_base: kp_tap_to_base {
             compatible = "zmk,behavior-hold-tap";
-            label = "MO_TAP_TO_BASE";
+            label = "KP_TAP_TO_BASE";
             bindings = <&kp>, <&to_base_layer>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
+
+        mo_to_base: mo_to_base {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MO_TO_BASE";
+            bindings = <&mo>, <&to_base_layer>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
@@ -266,19 +275,19 @@
 &hp_kp LS(LA(LC(LGUI))) ESCAPE  &kp N1     &kp N2   &kp N3    &kp N4                &kp N5                                                                                            &kp N6  &kp N7       &kp N8     &kp N9    &kp N0     &kp BACKSPACE
 &hm_kp 4 TAB                    &kp Q      &kp W    &kp E     &kp R                 &kp T                                                                                             &kp Y   &kp U        &kp I      &kp O     &kp P      &hm_kp 4 BSLH
 &kp LCTRL                       &kp A      &kp S    &kp D     &kp F                 &kp G                                                                                             &kp H   &kp J        &kp K      &kp L     &kp SEMI   &kp ENTER
-&mo_tap_to_hamkeys LSHIFT 0     &kp Z      &kp X    &kp C     &kp V                 &kp B   &kp LSHIFT  &kp LCMD  &mo_tap_to_hamkeys LEFT_CONTROL 0  &kp LGUI  &kp RCTRL  &kp RSHIFT  &kp N   &kp M        &kp COMMA  &kp DOT   &kp FSLH   &kp RSHIFT
-&kp EQUAL                       &kp GRAVE  &kp SQT  &kp LBKT  &kp RBKT                      &kp SPACE   &mo 2     &mo_tap_to_base LALT 0             &kp RALT  &mo 3      &kp SPACE           &kp LEFT     &kp UP     &kp DOWN  &kp RIGHT  &kp MINUS
+&kp_tap_to_hamkeys LSHIFT 0     &kp Z      &kp X    &kp C     &kp V                 &kp B   &kp LSHIFT  &kp LCMD  &kp_tap_to_hamkeys LEFT_CONTROL 0  &kp LGUI  &kp RCTRL  &kp RSHIFT  &kp N   &kp M        &kp COMMA  &kp DOT   &kp FSLH   &kp RSHIFT
+&kp EQUAL                       &kp GRAVE  &kp SQT  &kp LBKT  &kp RBKT                      &kp SPACE   &mo 2     &kp_tap_to_base LALT 0             &kp RALT  &mo 3      &kp SPACE           &kp LEFT     &kp UP     &kp DOWN  &kp RIGHT  &kp MINUS
             >;
         };
 
         ham_keys {
             bindings = <
-&trans                    &trans          &trans          &trans          &trans                                                                                          &trans          &trans             &trans           &trans            &trans
-&trans                    &kp LC(LA(N1))  &kp LC(LA(N2))  &kp LC(LA(N3))  &kp LC(LA(N4))  &kp LC(LA(N5))                                                  &kp LC(LA(N6))  &kp LC(LA(N7))  &kp LC(LA(N8))     &kp LC(LA(N9))   &kp LC(LA(N0))    &trans
-&trans                    &kp LC(LA(Q))   &kp LC(LA(W))   &kp LC(LA(E))   &kp LC(LA(R))   &kp LC(LA(T))                                                   &kp LC(LA(Y))   &kp LC(LA(U))   &kp LC(LA(I))      &kp LC(LA(O))    &kp LC(LA(P))     &kp LC(LA(BSLH))
-&trans                    &kp LC(LA(A))   &kp LC(LA(S))   &kp LC(LA(D))   &to_base_layer  &kp LC(LA(G))                                                   &kp LC(LA(H))   &kp LC(LA(J))   &kp LC(LA(K))      &kp LC(LA(L))    &kp LC(LA(SEMI))  &trans
-&mo_tap_to_base LSHIFT 0  &kp LC(LA(Z))   &kp LC(LA(X))   &kp LC(LA(C))   &kp LC(LA(V))   &kp LC(LA(B))   &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LA(N))   &kp LC(LA(M))   &kp LC(LA(COMMA))  &kp LC(LA(DOT))  &kp LC(LA(FSLH))  &trans
-&trans                    &trans          &trans          &trans          &trans                          &trans  &trans  &trans  &trans  &trans  &trans                  &trans          &trans             &trans           &trans            &trans
+&trans           &trans          &trans          &trans          &trans                                                                                                                        &trans          &trans             &trans           &trans            &trans
+&trans           &kp LC(LA(N1))  &kp LC(LA(N2))  &kp LC(LA(N3))  &kp LC(LA(N4))  &kp LC(LA(N5))                                                                                &kp LC(LA(N6))  &kp LC(LA(N7))  &kp LC(LA(N8))     &kp LC(LA(N9))   &kp LC(LA(N0))    &trans
+&trans           &kp LC(LA(Q))   &kp LC(LA(W))   &kp LC(LA(E))   &kp LC(LA(R))   &kp LC(LA(T))                                                                                 &kp LC(LA(Y))   &kp LC(LA(U))   &kp LC(LA(I))      &kp LC(LA(O))    &kp LC(LA(P))     &kp LC(LA(BSLH))
+&lm 4 LCTRL      &kp LC(LA(A))   &kp LC(LA(S))   &kp LC(LA(D))   &to_base_layer  &kp LC(LA(G))                                                                                 &kp LC(LA(H))   &kp LC(LA(J))   &kp LC(LA(K))      &kp LC(LA(L))    &kp LC(LA(SEMI))  &trans
+&mo_to_base 4 0  &kp LC(LA(Z))   &kp LC(LA(X))   &kp LC(LA(C))   &kp LC(LA(V))   &kp LC(LA(B))   &lm 4 LSHIFT  &lm 4 LGUI  &lm 4 LCTRL  &lm 4 RGUI  &lm 4 RCTRL  &lm 4 RSHIFT  &kp LC(LA(N))   &kp LC(LA(M))   &kp LC(LA(COMMA))  &kp LC(LA(DOT))  &kp LC(LA(FSLH))  &trans
+&trans           &trans          &trans          &trans          &trans                          &trans        &trans      &lm 4 LALT   &lm 4 RALT  &trans       &trans                        &trans          &trans             &trans           &trans            &trans
             >;
         };
 
