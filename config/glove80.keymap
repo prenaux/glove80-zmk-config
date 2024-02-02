@@ -282,12 +282,12 @@
 
         ham_keys {
             bindings = <
-&trans           &trans          &trans          &trans          &trans                                                                                                                        &trans          &trans             &trans           &trans            &trans
-&trans           &kp LC(LA(N1))  &kp LC(LA(N2))  &kp LC(LA(N3))  &kp LC(LA(N4))  &kp LC(LA(N5))                                                                                &kp LC(LA(N6))  &kp LC(LA(N7))  &kp LC(LA(N8))     &kp LC(LA(N9))   &kp LC(LA(N0))    &trans
-&trans           &kp LC(LA(Q))   &kp LC(LA(W))   &kp LC(LA(E))   &kp LC(LA(R))   &kp LC(LA(T))                                                                                 &kp LC(LA(Y))   &kp LC(LA(U))   &kp LC(LA(I))      &kp LC(LA(O))    &kp LC(LA(P))     &kp LC(LA(BSLH))
-&lm 4 LCTRL      &kp LC(LA(A))   &kp LC(LA(S))   &kp LC(LA(D))   &to_base_layer  &kp LC(LA(G))                                                                                 &kp LC(LA(H))   &kp LC(LA(J))   &kp LC(LA(K))      &kp LC(LA(L))    &kp LC(LA(SEMI))  &trans
-&mo_to_base 4 0  &kp LC(LA(Z))   &kp LC(LA(X))   &kp LC(LA(C))   &kp LC(LA(V))   &kp LC(LA(B))   &lm 4 LSHIFT  &lm 4 LGUI  &lm 4 LCTRL  &lm 4 RGUI  &lm 4 RCTRL  &lm 4 RSHIFT  &kp LC(LA(N))   &kp LC(LA(M))   &kp LC(LA(COMMA))  &kp LC(LA(DOT))  &kp LC(LA(FSLH))  &trans
-&trans           &trans          &trans          &trans          &trans                          &trans        &trans      &lm 4 LALT   &lm 4 RALT  &trans       &trans                        &trans          &trans             &trans           &trans            &trans
+&trans       &trans          &trans          &trans          &trans                                                                                                                        &trans          &trans             &trans           &trans            &trans
+&trans       &kp LC(LA(N1))  &kp LC(LA(N2))  &kp LC(LA(N3))  &kp LC(LA(N4))  &kp LC(LA(N5))                                                                                &kp LC(LA(N6))  &kp LC(LA(N7))  &kp LC(LA(N8))     &kp LC(LA(N9))   &kp LC(LA(N0))    &trans
+&trans       &kp LC(LA(Q))   &kp LC(LA(W))   &kp LC(LA(E))   &kp LC(LA(R))   &kp LC(LA(T))                                                                                 &kp LC(LA(Y))   &kp LC(LA(U))   &kp LC(LA(I))      &kp LC(LA(O))    &kp LC(LA(P))     &kp LC(LA(BSLH))
+&lm 4 LCTRL  &kp LC(LA(A))   &kp LC(LA(S))   &kp LC(LA(D))   &to_base_layer  &kp LC(LA(G))                                                                                 &kp LC(LA(H))   &kp LC(LA(J))   &kp LC(LA(K))      &kp LC(LA(L))    &kp LC(LA(SEMI))  &trans
+&mo 4        &kp LC(LA(Z))   &kp LC(LA(X))   &kp LC(LA(C))   &kp LC(LA(V))   &kp LC(LA(B))   &lm 4 LSHIFT  &lm 4 LGUI  &lm 4 LCTRL  &lm 4 RGUI  &lm 4 RCTRL  &lm 4 RSHIFT  &kp LC(LA(N))   &kp LC(LA(M))   &kp LC(LA(COMMA))  &kp LC(LA(DOT))  &kp LC(LA(FSLH))  &trans
+&trans       &trans          &trans          &trans          &trans                          &trans        &trans      &lm 4 LALT   &lm 4 RALT  &trans       &trans                        &trans          &trans             &trans           &trans            &trans
             >;
         };
 
