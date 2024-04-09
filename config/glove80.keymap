@@ -338,7 +338,7 @@
 &trans     &kp GRAVE    &kp MINUS          &kp LPAR   &kp RPAR    &kp PLUS                                                      &kp LA(UP)         &kp LA(LEFT)      &kp UP     &kp LA(RIGHT)  &txt_colcol   &kp PIPE
 &trans     &kp TILDE    &kp UNDER          &kp LBRC   &kp RBRC    &kp EQUAL                                                     &kp LA(DOWN)       &kp LEFT          &kp DOWN   &kp RIGHT      &kp COLON     &trans
 &kp SPACE  &txt_farrow  &txt_rarrow        &kp LBKT   &kp RBKT    &kp SPACE    &trans  &trans  &trans   &trans  &trans  &trans  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp LT     &kp GT         &kp QUESTION  &trans
-&kp PLUS   &kp TILDE    &kp DOUBLE_QUOTES  &kp LBKT   &kp RBKT                 &trans  &trans  &kp DEL  &trans  &trans  &trans                     &kp PG_UP         &kp PG_DN  &kp HOME       &kp END       &kp UNDER
+&kp PLUS   &kp TILDE    &kp DOUBLE_QUOTES  &kp LBRC   &kp RBRC                 &trans  &trans  &kp DEL  &trans  &trans  &trans                     &kp PG_UP         &kp PG_DN  &kp HOME       &kp END       &kp UNDER
             >;
         };
 
