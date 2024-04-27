@@ -309,12 +309,12 @@
             // | MAGIC | HOME| END | LEFT | RIGHT|      | BSPC  | DEL   | LALT  | | RALT  | RET   | SPACE |      |  UP   | DOWN  |  [   |   ]   | PGDN |
 
             bindings = <
-&hp_kp LS(LA(LC(LGUI))) ESCAPE  &kp F1     &kp F2   &kp F3    &hrgbstatus_kp 0 F4                                                                                         &hp_mo 6 F5  &kp F6     &kp F7    &kp F8     &kp F9
-&kp GRAVE                       &kp N1     &kp N2   &kp N3    &kp N4               &kp N5                                                                         &kp N6  &kp N7       &kp N8     &kp N9    &kp N0     &kp BACKSPACE
-&hm_kp 5 TAB                    &kp Q      &kp W    &kp E     &kp R                &kp T                                                                          &kp Y   &kp U        &kp I      &kp O     &kp P      &hm_kp 5 BSLH
-&kp_tap_to_hamkeys LGUI 0       &kp A      &kp S    &kp D     &kp F                &kp G                                                                          &kp H   &kp J        &kp K      &kp L     &kp SEMI   &kp ENTER
-&kp_tap_to_hamkeys LSHIFT 0     &kp Z      &kp X    &kp C     &kp V                &kp B   &kp LGUI  &kp LSHIFT  &mo 3          &kp RCTRL  &kp RSHIFT  &kp RGUI   &kp N   &kp M        &kp COMMA  &kp DOT   &kp FSLH   &kp RSHIFT
-&kp EQUAL                       &kp GRAVE  &kp SQT  &kp LBKT  &kp RBKT                     &kp LALT  &kp LCTRL   &kp BACKSPACE  &kp RALT   &mo 3       &kp SPACE          &kp UP       &kp DOWN   &kp LEFT  &kp RIGHT  &kp MINUS
+&hp_kp LS(LA(LC(LGUI))) ESCAPE  &kp F1     &kp F2   &kp F3    &hrgbstatus_kp 0 F4                                                                                                &hp_mo 6 F5  &kp F6     &kp F7    &kp F8     &kp LS(LA(LC(LG(N3))))
+&kp GRAVE                       &kp N1     &kp N2   &kp N3    &kp N4               &kp N5                                                                                &kp N6  &kp N7       &kp N8     &kp N9    &kp N0     &kp BACKSPACE
+&hm_kp 5 TAB                    &kp Q      &kp W    &kp E     &kp R                &kp T                                                                                 &kp Y   &kp U        &kp I      &kp O     &kp P      &hm_kp 5 BSLH
+&kp_tap_to_hamkeys LGUI 0       &kp A      &kp S    &kp D     &kp F                &kp G                                                                                 &kp H   &kp J        &kp K      &kp L     &kp SEMI   &kp ENTER
+&kp_tap_to_hamkeys LSHIFT 0     &kp Z      &kp X    &kp C     &kp V                &kp B   &kp LGUI  &kp LSHIFT  &mo 3                 &kp RCTRL  &kp RSHIFT  &kp RGUI   &kp N   &kp M        &kp COMMA  &kp DOT   &kp FSLH   &kp RSHIFT
+&kp EQUAL                       &kp GRAVE  &kp SQT  &kp LBKT  &kp RBKT                     &kp LALT  &kp LCTRL   &kp LS(LA(LC(LGUI)))  &kp RALT   &mo 3       &kp SPACE          &kp UP       &kp DOWN   &kp LEFT  &kp RIGHT  &kp MINUS
             >;
         };
 
