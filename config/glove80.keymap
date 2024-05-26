@@ -314,7 +314,7 @@
 &hm_kp 2 TAB                 &kp Q                 &kp W                   &kp E     &kp R                &kp T                                                                  &kp Y   &kp U        &kp I      &kp O      &kp P      &hm_kp 2 BACKSLASH
 &kp LCTRL                    &kp A                 &kp S                   &kp D     &kp F                &kp G                                                                  &kp H   &kp J        &kp K      &kp L      &kp SEMI   &kp ENTER
 &kp_tap_to_hamkeys LSHIFT 0  &kp Z                 &kp X                   &kp C     &kp V                &kp B   &kp LGUI  &kp EQUAL  &kp GRAVE  &kp UP    &kp LEFT  &kp RIGHT  &kp N   &kp M        &kp COMMA  &kp DOT    &kp FSLH   &kp RSHIFT
-&txt_rarrow                  &kp LS(LA(LC(LGUI)))  &kp LS(LA(LC(LG(UP))))  &kp LBKT  &kp RBKT                     &kp LALT  &kp LCTRL  &kp MINUS  &kp DOWN  &kp SQT   &kp SPACE          &kp HOME     &kp END    &kp PG_UP  &kp PG_DN  &kp LA(LS(LCTRL))
+&txt_rarrow                  &kp LS(LA(LC(LGUI)))  &kp LS(LA(LC(LG(UP))))  &kp LBKT  &kp RBKT                     &kp LALT  &kp LCTRL  &kp MINUS  &kp DOWN  &kp SQT   &kp SPACE          &kp HOME     &kp END    &kp PG_UP  &kp PG_DN  &kp UNDERSCORE
             >;
         };
 
