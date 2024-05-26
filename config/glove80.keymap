@@ -309,23 +309,23 @@
             // | MAGIC | HOME| END | LEFT | RIGHT|      | BSPC  | DEL   | LALT  | | RALT  | RET   | SPACE |      |  UP   | DOWN  |  [   |   ]   | PGDN |
 
             bindings = <
-&kp F1                       &kp F2     &kp F3   &kp F4    &hrgbstatus_kp 0 F5                                                                                  &hp_mo 3 F6  &kp F7     &kp F8    &kp F9    &kp F10
-&kp ESC                      &kp N1     &kp N2   &kp N3    &kp N4               &kp N5                                                                  &kp N6  &kp N7       &kp N8     &kp N9    &kp N0    &kp BACKSPACE
-&hm_kp 2 TAB                 &kp Q      &kp W    &kp E     &kp R                &kp T                                                                   &kp Y   &kp U        &kp I      &kp O     &kp P     &hm_kp 2 BACKSLASH
-&hp_kp LCTRL SQT             &kp A      &kp S    &kp D     &kp F                &kp G                                                                   &kp H   &kp J        &kp K      &kp L     &kp SEMI  &kp ENTER
-&kp_tap_to_hamkeys LSHIFT 0  &kp Z      &kp X    &kp C     &kp V                &kp B   &kp LGUI  &kp LSHIFT  &kp EQUAL  &kp UP    &kp LEFT  &kp RIGHT  &kp N   &kp M        &kp COMMA  &kp DOT   &kp FSLH  &kp RSHIFT
-&kp LS(LA(LC(LG(UP))))       &kp GRAVE  &kp SQT  &kp LBKT  &kp RBKT                     &kp LALT  &kp LCTRL   &kp MINUS  &kp DOWN  &mo 1     &kp SPACE          &kp PG_UP    &kp PG_DN  &kp HOME  &kp END   &kp LC(LA(LS(LGUI)))
+&kp F1                       &kp F2                &kp F3                  &kp F4    &hrgbstatus_kp 0 F5                                                                                  &hp_mo 3 F6  &kp F7     &kp F8    &kp F9    &kp F10
+&kp GRAVE                    &kp N1                &kp N2                  &kp N3    &kp N4               &kp N5                                                                  &kp N6  &kp N7       &kp N8     &kp N9    &kp N0    &kp BACKSPACE
+&hm_kp 2 TAB                 &kp Q                 &kp W                   &kp E     &kp R                &kp T                                                                   &kp Y   &kp U        &kp I      &kp O     &kp P     &hm_kp 2 BACKSLASH
+&kp LCTRL                    &kp A                 &kp S                   &kp D     &kp F                &kp G                                                                   &kp H   &kp J        &kp K      &kp L     &kp SEMI  &kp ENTER
+&kp_tap_to_hamkeys LSHIFT 0  &kp Z                 &kp X                   &kp C     &kp V                &kp B   &kp LGUI  &kp LSHIFT  &kp EQUAL  &kp UP    &kp LEFT  &kp RIGHT  &kp N   &kp M        &kp COMMA  &kp DOT   &kp FSLH  &kp RSHIFT
+&kp ESCAPE                   &kp LS(LA(LC(LGUI)))  &kp LS(LA(LC(LG(UP))))  &kp LBKT  &kp RBKT                     &kp LALT  &kp LCTRL   &kp MINUS  &kp DOWN  &kp SQT   &kp SPACE          &kp PG_UP    &kp PG_DN  &kp HOME  &kp END   &kp LA(LS(LCTRL))
             >;
         };
 
         sym {
             bindings = <
-&trans     &trans     &trans             &trans             &trans                                                                                       &trans        &trans     &trans         &trans        &trans
-&trans     &kp EXCL   &kp AT             &kp POUND          &kp DOLLAR        &kp PERCENT                                                  &kp CARET     &kp AMPS      &kp STAR   &kp LPAR       &kp RPAR      &trans
-&trans     &kp GRAVE  &kp MINUS          &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp PLUS                                                     &kp LA(UP)    &kp LA(LEFT)  &kp UP     &kp LA(RIGHT)  &txt_colcol   &kp PIPE
-&trans     &kp TILDE  &kp UNDER          &kp LBRC           &kp RBRC          &kp EQUAL                                                    &kp LA(DOWN)  &kp LEFT      &kp DOWN   &kp RIGHT      &kp COLON     &trans
-&kp SPACE  &txt_ddd   &txt_farrow        &kp LBKT           &kp RBKT          &kp SPACE    &trans  &trans  &trans  &trans  &trans  &trans  &txt_larrow   &txt_rarrow   &kp LT     &kp GT         &kp QUESTION  &trans
-&kp UNDER  &kp TILDE  &kp DOUBLE_QUOTES  &kp LBRC           &kp RBRC                       &trans  &trans  &trans  &trans  &trans  &trans                &kp PG_UP     &kp PG_DN  &kp HOME       &kp END       &kp PLUS
+&trans     &trans     &trans       &trans             &trans                                                                                       &trans        &trans    &trans         &trans        &trans
+&trans     &kp EXCL   &kp AT       &kp POUND          &kp DOLLAR        &kp PERCENT                                                  &kp CARET     &kp AMPS      &kp STAR  &kp LPAR       &kp RPAR      &trans
+&trans     &kp GRAVE  &kp MINUS    &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp PLUS                                                     &kp LA(UP)    &kp LA(LEFT)  &kp UP    &kp LA(RIGHT)  &txt_colcol   &kp PIPE
+&trans     &kp TILDE  &kp UNDER    &kp LBRC           &kp RBRC          &kp EQUAL                                                    &kp LA(DOWN)  &kp LEFT      &kp DOWN  &kp RIGHT      &kp COLON     &trans
+&kp SPACE  &txt_ddd   &txt_farrow  &kp LBKT           &kp RBKT          &kp SPACE    &trans  &trans  &trans  &trans  &trans  &trans  &txt_larrow   &txt_rarrow   &kp LT    &kp GT         &kp QUESTION  &trans
+&trans     &trans     &trans       &trans             &trans                         &trans  &trans  &trans  &trans  &trans  &trans                &trans        &trans    &trans         &trans        &trans
             >;
         };
 
