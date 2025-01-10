@@ -320,12 +320,12 @@
             // | MAGIC | HOME| END | LEFT | RIGHT|      | BSPC  | DEL   | LALT  | | RALT  | RET   | SPACE |      |  UP   | DOWN  |  [   |   ]   | PGDN |
 
             bindings = <
-&kp ESCAPE    &kp F1     &kp F2   &kp F3    &hrgbstatus_kp 0 F4                                                                                         &hp_mo 3 F5  &kp F6     &kp F7   &kp F8     &kp BACKSPACE
-&kp ESC       &kp N1     &kp N2   &kp N3    &kp N4               &kp N5                                                                         &kp N6  &kp N7       &kp N8     &kp N9   &kp N0     &kp BACKSPACE
-&hm_kp 2 TAB  &kp Q      &kp W    &kp E     &kp R                &kp T                                                                          &kp Y   &kp U        &kp I      &kp O    &kp P      &hm_kp 2 BACKSLASH
-&kp LCTRL     &kp A      &kp S    &kp D     &kp F                &kp G                                                                          &kp H   &kp J        &kp K      &kp L    &kp SEMI   &kp ENTER
-&kp LSHIFT    &kp Z      &kp X    &kp C     &kp V                &kp B   &kp LSHIFT  &kp LGUI   &kp PG_UP  &kp HOME  &kp DEL         &kp GRAVE  &kp N   &kp M        &kp COMMA  &kp DOT  &kp FSLH   &kp RSHIFT
-&kp EQUAL     &kp MINUS  &kp SQT  &kp LBKT  &kp RBKT                     &kp LALT    &kp LCTRL  &kp PG_DN  &kp END   &tp_mo 2 ENTER  &kp SPACE          &kp LEFT     &kp DOWN   &kp UP   &kp RIGHT  &kp UNDER
+&kp ESCAPE    &kp F1     &kp F2   &kp F3    &hrgbstatus_kp 0 F4                                                                                                    &hp_mo 3 F5  &kp F6     &kp F7   &kp F8     &kp BACKSPACE
+&kp GRAVE     &kp N1     &kp N2   &kp N3    &kp N4               &kp N5                                                                                    &kp N6  &kp N7       &kp N8     &kp N9   &kp N0     &kp BACKSPACE
+&hm_kp 2 TAB  &kp Q      &kp W    &kp E     &kp R                &kp T                                                                                     &kp Y   &kp U        &kp I      &kp O    &kp P      &hm_kp 2 BACKSLASH
+&kp LCTRL     &kp A      &kp S    &kp D     &kp F                &kp G                                                                                     &kp H   &kp J        &kp K      &kp L    &kp SEMI   &kp ENTER
+&kp LSHIFT    &kp Z      &kp X    &kp C     &kp V                &kp B   &kp LSHIFT  &kp LGUI   &kp PG_UP  &kp HOME  &kp DEL         &kp LS(LA(LC(LWIN)))  &kp N   &kp M        &kp COMMA  &kp DOT  &kp FSLH   &kp RSHIFT
+&kp EQUAL     &kp MINUS  &kp SQT  &kp LBKT  &kp RBKT                     &kp LALT    &kp LCTRL  &kp PG_DN  &kp END   &tp_mo 2 ENTER  &kp SPACE                     &kp LEFT     &kp DOWN   &kp UP   &kp RIGHT  &kp UNDER
             >;
         };
 
