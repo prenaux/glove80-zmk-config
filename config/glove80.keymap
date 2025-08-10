@@ -9,6 +9,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
 #define HYPER LC(LS(LG(LALT)))
@@ -320,12 +321,12 @@
             // | MAGIC | HOME| END | LEFT | RIGHT|      | BSPC  | DEL   | LALT  | | RALT  | RET   | SPACE |      |  UP   | DOWN  |  [   |   ]   | PGDN |
 
             bindings = <
-&gresc      &kp F1     &kp F2    &kp F3    &hrgbstatus_kp 0 F4                                                                                      &hp_mo 3 F5  &kp F6     &kp F7   &kp F8     &kp F9
-&kp PLUS    &kp N1     &kp N2    &kp N3    &kp N4               &kp N5                                                                      &kp N6  &kp N7       &kp N8     &kp N9   &kp N0     &kp MINUS
-&kp TAB     &kp Q      &kp W     &kp E     &kp R                &kp T                                                                       &kp Y   &kp U        &kp I      &kp O    &kp P      &kp BACKSLASH
-&kp ESCAPE  &kp A      &kp S     &kp D     &kp F                &kp G                                                                       &kp H   &kp J        &kp K      &kp L    &kp SEMI   &kp SQT
-&kp LSHIFT  &kp Z      &kp X     &kp C     &kp V                &kp B   &kp LCTRL      &kp LALT    &kp F12   &kp F10  &kp RALT   &kp RCTRL  &kp N   &kp M        &kp COMMA  &kp DOT  &kp FSLH   &kp RSHIFT
-&mo 2       &kp GRAVE  &kp LGUI  &kp LBKT  &kp RBKT                     &kp BACKSPACE  &kp DELETE  &kp LGUI  &kp F11  &kp ENTER  &kp SPACE          &kp LEFT     &kp DOWN   &kp UP   &kp RIGHT  &mo 2
+&gresc      &kp F1     &kp F2    &kp F3    &hrgbstatus_kp 0 F4                                                                                         &hp_mo 3 F5  &kp F6     &kp F7   &kp F8     &kp F9
+&kp PLUS    &kp N1     &kp N2    &kp N3    &kp N4               &kp N5                                                                         &kp N6  &kp N7       &kp N8     &kp N9   &kp N0     &kp MINUS
+&kp TAB     &kp Q      &kp W     &kp E     &kp R                &kp T                                                                          &kp Y   &kp U        &kp I      &kp O    &kp P      &kp BACKSLASH
+&kp ESCAPE  &kp A      &kp S     &kp D     &kp F                &kp G                                                                          &kp H   &kp J        &kp K      &kp L    &kp SEMI   &kp SQT
+&kp LSHIFT  &kp Z      &kp X     &kp C     &kp V                &kp B   &kp LCTRL      &kp LALT    &mkp MCLK  &mkp LCLK  &kp RALT   &kp RCTRL  &kp N   &kp M        &kp COMMA  &kp DOT  &kp FSLH   &kp RSHIFT
+&mo 2       &kp GRAVE  &kp LGUI  &kp LBKT  &kp RBKT                     &kp BACKSPACE  &kp DELETE  &kp LGUI   &mkp RCLK  &kp ENTER  &kp SPACE          &kp LEFT     &kp DOWN   &kp UP   &kp RIGHT  &mo 2
             >;
         };
 
