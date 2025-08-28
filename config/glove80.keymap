@@ -307,6 +307,21 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        df-escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <37 38>;
+            timeout-ms = <50>;
+        };
+
+        jk-backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <41 42>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
