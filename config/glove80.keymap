@@ -320,12 +320,12 @@
             // | MAGIC | HOME| END | LEFT | RIGHT|      | BSPC  | DEL   | LALT  | | RALT  | RET   | SPACE |      |  UP   | DOWN  |  [   |   ]   | PGDN |
 
             bindings = <
-&magic 3 0     &kp F1     &kp F2                      &kp F3    &hrgbstatus_kp 0 F4                                                                                           &hp_mo 3 F5  &kp F6     &kp F7   &kp F8     &kp F9
-&kp BACKSLASH  &kp N1     &kp N2                      &kp N3    &kp N4               &kp N5                                                                           &kp N6  &kp N7       &kp N8     &kp N9   &kp N0     &kp BACKSPACE
-&kp TAB        &kp Q      &kp W                       &kp E     &kp R                &kp T                                                                            &kp Y   &kp U        &kp I      &kp O    &kp P      &kp PLUS
-&kp ESCAPE     &kp A      &kp S                       &kp D     &kp F                &kp G                                                                            &kp H   &kp J        &kp K      &kp L    &kp SEMI   &kp MINUS
-&kp LSHIFT     &kp Z      &kp X                       &kp C     &kp V                &kp B   &kp BACKSPACE  &kp DELETE  &kp BACKSLASH  &kp F10  &kp LALT   &kp LCTRL  &kp N   &kp M        &kp COMMA  &kp DOT  &kp SQT    &kp RSHIFT
-&mo 2          &kp GRAVE  &mt LCMD LS(LA(LC(SPACE)))  &kp LBKT  &kp RBKT                     &kp LALT       &kp LCTRL   &kp SLASH      &kp F11  &kp ENTER  &kp SPACE          &kp LEFT     &kp DOWN   &kp UP   &kp RIGHT  &mo 2
+&magic 3 0  &kp F1     &kp F2     &kp F3    &hrgbstatus_kp 0 F4                                                                                                                          &hp_mo 3 F5  &kp F6     &kp F7   &kp F8     &kp F9
+&kp GRAVE   &kp N1     &kp N2     &kp N3    &kp N4               &kp N5                                                                                                          &kp N6  &kp N7       &kp N8     &kp N9   &kp N0     &kp BACKSPACE
+&kp TAB     &kp Q      &kp W      &kp E     &kp R                &kp T                                                                                                           &kp Y   &kp U        &kp I      &kp O    &kp P      &kp BACKSLASH
+&kp ESCAPE  &kp A      &kp S      &kp D     &kp F                &kp G                                                                                                           &kp H   &kp J        &kp K      &kp L    &kp SEMI   &kp ENTER
+&kp LSHIFT  &kp Z      &kp X      &kp C     &kp V                &kp B   &kp BACKSPACE  &kp DELETE  &kp F11                     &kp F10                     &kp LALT  &kp LCTRL  &kp N   &kp M        &kp COMMA  &kp DOT  &kp SLASH  &kp RSHIFT
+&mo 2       &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT                     &kp LALT       &kp LCTRL   &mt LGUI LA(LS(LC(SPACE)))  &mt RGUI LS(LA(LC(SPACE)))  &kp SQT   &kp SPACE          &kp LEFT     &kp DOWN   &kp UP   &kp RIGHT  &mo 2
             >;
         };
 
