@@ -310,50 +310,38 @@
     combos {
         compatible = "zmk,combos";
 
-        df-backspace {
+        df {
             bindings = <&kp BACKSPACE>;
             key-positions = <37 38>;
             timeout-ms = <50>;
         };
 
-        jk-backspace {
+        fg {
+            bindings = <&kp DEL>;
+            key-positions = <38 39>;
+            timeout-ms = <50>;
+        };
+
+        xc {
+            bindings = <&kp TAB>;
+            key-positions = <48 49>;
+        };
+
+        cv {
+            bindings = <&kp TAB>;
+            key-positions = <49 50>;
+            timeout-ms = <50>;
+        };
+
+        jk {
             bindings = <&kp BACKSPACE>;
             key-positions = <41 42>;
             timeout-ms = <50>;
         };
 
-        kl-delete {
+        kl {
             bindings = <&kp DELETE>;
             key-positions = <42 43>;
-        };
-
-        fg-tab {
-            bindings = <&kp TAB>;
-            key-positions = <38 39>;
-            timeout-ms = <50>;
-        };
-
-        cv {
-            bindings = <&kp SLASH>;
-            key-positions = <50 49>;
-            timeout-ms = <50>;
-        };
-
-        xc {
-            bindings = <&kp BACKSLASH>;
-            key-positions = <49 48>;
-            timeout-ms = <50>;
-        };
-
-        comma-dot {
-            bindings = <&kp RBKT>;
-            key-positions = <60 61>;
-            timeout-ms = <50>;
-        };
-
-        m-comma {
-            bindings = <&kp LBKT>;
-            key-positions = <60 61>;
             timeout-ms = <50>;
         };
     };
