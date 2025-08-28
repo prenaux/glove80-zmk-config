@@ -323,7 +323,7 @@
         };
 
         xc {
-            bindings = <&kp TAB>;
+            bindings = <&kp ESCAPE>;
             key-positions = <48 49>;
         };
 
