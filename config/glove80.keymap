@@ -286,12 +286,12 @@
 
         sym {
             bindings = <
-&trans     &trans     &trans       &trans     &trans                                                                                 &trans        &trans    &trans         &trans        &trans
-&trans     &kp EXCL   &kp AT       &kp POUND  &kp DOLLAR  &kp PERCENT                                                  &kp CARET     &kp AMPS      &kp STAR  &kp LPAR       &kp RPAR      &trans
-&trans     &kp GRAVE  &kp MINUS    &kp LPAR   &kp RPAR    &kp PLUS                                                     &kp LA(UP)    &kp LA(LEFT)  &kp UP    &kp LA(RIGHT)  &txt_colcol   &trans
-&trans     &kp TILDE  &kp UNDER    &kp LBRC   &kp RBRC    &kp EQUAL                                                    &kp LA(DOWN)  &kp LEFT      &kp DOWN  &kp RIGHT      &kp COLON     &trans
-&kp SPACE  &txt_ddd   &txt_farrow  &kp LBKT   &kp RBKT    &kp SPACE    &trans  &trans  &trans  &trans  &trans  &trans  &txt_larrow   &txt_rarrow   &kp LT    &kp GT         &kp QUESTION  &trans
-&trans     &trans     &trans       &trans     &trans                   &trans  &trans  &trans  &trans  &trans  &trans                &trans        &trans    &trans         &trans        &trans
+&trans  &trans     &trans          &trans         &trans                                                                                 &trans        &trans    &trans         &trans             &trans
+&trans  &kp EXCL   &kp AT          &kp POUND      &kp DOLLAR  &kp PERCENT                                                  &kp CARET     &kp AMPS      &kp STAR  &kp LPAR       &kp RPAR           &trans
+&trans  &kp GRAVE  &kp SLASH       &kp BACKSLASH  &kp PIPE    &kp EQUAL                                                    &kp LA(UP)    &kp LA(LEFT)  &kp UP    &kp LA(RIGHT)  &txt_colcol        &kp PLUS
+&trans  &kp TILDE  &kp QUESTION    &kp LBRC       &kp RBRC    &kp PLUS                                                     &kp LA(DOWN)  &kp LEFT      &kp DOWN  &kp RIGHT      &kp COLON          &kp UNDERSCORE
+&trans  &kp MINUS  &kp UNDERSCORE  &kp LBKT       &kp RBKT    &txt_farrow  &trans  &trans  &trans  &trans  &trans  &trans  &txt_larrow   &txt_rarrow   &kp LT    &kp GT         &kp DOUBLE_QUOTES  &trans
+&trans  &trans     &trans          &trans         &trans                   &trans  &trans  &trans  &trans  &trans  &trans                &trans        &trans    &trans         &trans             &trans
             >;
         };
 
