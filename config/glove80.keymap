@@ -75,10 +75,10 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <175>;
-            require-prior-idle-ms = <100>;
-            retro-tap;
+            tapping-term-ms = <180>;
             hold-trigger-key-positions = <0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 70 71 72 73 74 75 76 77 78 79>;
+            flavor = "balanced";
+            quick-tap-ms = <125>;
         };
 
         ht_lthumb2: ht_lthumb2 {
@@ -87,10 +87,10 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <175>;
-            require-prior-idle-ms = <100>;
-            retro-tap;
+            tapping-term-ms = <180>;
             hold-trigger-key-positions = <0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 71 72 73 74 75 76 77 78 79 69>;
+            quick-tap-ms = <125>;
+            flavor = "balanced";
         };
     };
 
@@ -275,12 +275,12 @@
             // | MAGIC | HOME| END | LEFT | RIGHT|      | BSPC  | DEL   | LALT  | | RALT  | RET   | SPACE |      |  UP   | DOWN  |  [   |   ]   | PGDN |
 
             bindings = <
-&magic 3 0  &kp F1     &kp F2                      &kp F3    &hrgbstatus_kp 0 F4                                                                                                                   &hp_mo 3 F5  &kp F6     &kp F7   &kp F8     &kp F9
-&kp SLASH   &kp N1     &kp N2                      &kp N3    &kp N4               &kp N5                                                                                                   &kp N6  &kp N7       &kp N8     &kp N9   &kp N0     &kp UNDERSCORE
-&kp TAB     &kp Q      &kp W                       &kp E     &kp R                &kp T                                                                                                    &kp Y   &kp U        &kp I      &kp O    &kp P      &kp EQUAL
-&kp ESC     &kp A      &kp S                       &kp D     &kp F                &kp G                                                                                                    &kp H   &kp J        &kp K      &kp L    &kp SEMI   &kp MINUS
-&kp LSHIFT  &kp Z      &kp X                       &kp C     &kp V                &kp B   &kp LCTRL                   &kp LALT               &kp F12        &kp F10  &kp LALT   &kp LCTRL  &kp N   &kp M        &kp COMMA  &kp DOT  &kp SQT    &kp RSHIFT
-&mo 2       &kp GRAVE  &mt LCMD LS(LA(LC(SPACE)))  &kp LBKT  &kp RBKT                     &ht_lthumb1 LALT BACKSPACE  &ht_lthumb2 LCTRL DEL  &kp BACKSLASH  &kp F11  &kp ENTER  &kp SPACE          &kp LEFT     &kp DOWN   &kp UP   &kp RIGHT  &mo 2
+&magic 3 0  &kp F1         &kp F2                      &kp F3    &hrgbstatus_kp 0 F4                                                                                                               &hp_mo 3 F5  &kp F6     &kp F7   &kp F8     &kp F9
+&kp GRAVE   &kp N1         &kp N2                      &kp N3    &kp N4               &kp N5                                                                                               &kp N6  &kp N7       &kp N8     &kp N9   &kp N0     &kp UNDERSCORE
+&kp TAB     &kp Q          &kp W                       &kp E     &kp R                &kp T                                                                                                &kp Y   &kp U        &kp I      &kp O    &kp P      &kp EQUAL
+&kp ESC     &kp A          &kp S                       &kp D     &kp F                &kp G                                                                                                &kp H   &kp J        &kp K      &kp L    &kp SEMI   &kp MINUS
+&kp LSHIFT  &kp Z          &kp X                       &kp C     &kp V                &kp B   &kp LCTRL                   &kp LALT               &kp F12    &kp F10  &kp LALT   &kp LCTRL  &kp N   &kp M        &kp COMMA  &kp DOT  &kp SQT    &kp RSHIFT
+&mo 2       &kp BACKSLASH  &mt LCMD LS(LA(LC(SPACE)))  &kp LBKT  &kp RBKT                     &ht_lthumb1 LALT BACKSPACE  &ht_lthumb2 LCTRL DEL  &kp SLASH  &kp F11  &kp ENTER  &kp SPACE          &kp LEFT     &kp DOWN   &kp UP   &kp RIGHT  &mo 2
             >;
         };
 
