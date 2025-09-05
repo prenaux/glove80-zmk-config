@@ -275,23 +275,23 @@
             // | MAGIC | HOME| END | LEFT | RIGHT|      | BSPC  | DEL   | LALT  | | RALT  | RET   | SPACE |      |  UP   | DOWN  |  [   |   ]   | PGDN |
 
             bindings = <
-&magic 3 0  &kp F1     &kp F2                      &kp F3    &hrgbstatus_kp 0 F4                                                                                                                   &hp_mo 3 F5  &kp F6     &kp F7   &kp F8     &kp F9
-&kp SLASH   &kp N1     &kp N2                      &kp N3    &kp N4               &kp N5                                                                                                   &kp N6  &kp N7       &kp N8     &kp N9   &kp N0     &kp UNDERSCORE
-&kp TAB     &kp Q      &kp W                       &kp E     &kp R                &kp T                                                                                                    &kp Y   &kp U        &kp I      &kp O    &kp P      &kp EQUAL
-&kp ESC     &kp A      &kp S                       &kp D     &kp F                &kp G                                                                                                    &kp H   &kp J        &kp K      &kp L    &kp SEMI   &kp MINUS
-&kp LSHIFT  &kp Z      &kp X                       &kp C     &kp V                &kp B   &kp LCTRL                   &kp LALT               &kp F12        &kp F10  &kp LALT   &kp LCTRL  &kp N   &kp M        &kp COMMA  &kp DOT  &kp SQT    &kp RSHIFT
-&mo 2       &kp GRAVE  &mt LCMD LS(LA(LC(SPACE)))  &kp LBKT  &kp RBKT                     &ht_lthumb1 LALT BACKSPACE  &ht_lthumb2 LCTRL DEL  &kp BACKSLASH  &kp F11  &kp ENTER  &kp SPACE          &kp LEFT     &kp DOWN   &kp UP   &kp RIGHT  &mo 2
+&magic 3 0  &kp F1     &kp F2         &kp F3    &hrgbstatus_kp 0 F4                                                                                 &hp_mo 3 F5  &kp F6     &kp F7   &kp F8     &kp F9
+&kp SLASH   &kp N1     &kp N2         &kp N3    &kp N4               &kp N5                                                                 &kp N6  &kp N7       &kp N8     &kp N9   &kp N0     &kp BACKSPACE
+&kp TAB     &kp Q      &kp W          &kp E     &kp R                &kp T                                                                  &kp Y   &kp U        &kp I      &kp O    &kp P      &kp EQUAL
+&kp ESC     &kp A      &kp S          &kp D     &kp F                &kp G                                                                  &kp H   &kp J        &kp K      &kp L    &kp SEMI   &kp MINUS
+&kp LSHIFT  &kp Z      &kp X          &kp C     &kp V                &kp B   &kp LSHIFT  &kp LCMD   &kp F10  &kp F12  &kp LALT   &kp LCTRL  &kp N   &kp M        &kp COMMA  &kp DOT  &kp SQT    &kp RSHIFT
+&mo 2       &kp GRAVE  &kp BACKSLASH  &kp LBKT  &kp RBKT                     &kp LALT    &kp LCTRL  &kp F11  &mo 1    &kp ENTER  &kp SPACE          &kp LEFT     &kp DOWN   &kp UP   &kp RIGHT  &mo 2
             >;
         };
 
         sym {
             bindings = <
-&trans  &trans     &trans          &trans         &trans                                                                                 &trans        &trans    &trans         &trans             &trans
-&trans  &kp EXCL   &kp AT          &kp POUND      &kp DOLLAR  &kp PERCENT                                                  &kp CARET     &kp AMPS      &kp STAR  &kp LPAR       &kp RPAR           &trans
-&trans  &kp GRAVE  &kp SLASH       &kp BACKSLASH  &kp PIPE    &kp EQUAL                                                    &kp LA(UP)    &kp LA(LEFT)  &kp UP    &kp LA(RIGHT)  &txt_colcol        &kp PLUS
-&trans  &kp TILDE  &kp QUESTION    &kp LBRC       &kp RBRC    &kp PLUS                                                     &kp LA(DOWN)  &kp LEFT      &kp DOWN  &kp RIGHT      &kp COLON          &kp UNDERSCORE
-&trans  &kp MINUS  &kp UNDERSCORE  &kp LBKT       &kp RBKT    &txt_farrow  &trans  &trans  &trans  &trans  &trans  &trans  &txt_larrow   &txt_rarrow   &kp LT    &kp GT         &kp DOUBLE_QUOTES  &trans
-&trans  &trans     &trans          &trans         &trans                   &trans  &trans  &trans  &trans  &trans  &trans                &trans        &trans    &trans         &trans             &trans
+&trans     &trans     &trans          &trans     &trans                                                                                   &trans        &trans    &trans         &trans             &trans
+&kp GRAVE  &kp EXCL   &kp AT          &kp POUND  &kp DOLLAR  &kp PERCENT                                                    &kp CARET     &kp AMPS      &kp STAR  &kp LPAR       &kp RPAR           &trans
+&kp TILDE  &kp EQUAL  &kp SLASH       &kp LPAR   &kp RPAR    &kp BACKSLASH                                                  &kp LC(UP)    &kp LC(LEFT)  &kp UP    &kp LC(RIGHT)  &txt_colcol        &kp PLUS
+&trans     &kp PLUS   &kp QUESTION    &kp LBRC   &kp RBRC    &kp PIPE                                                       &kp LC(DOWN)  &kp LEFT      &kp DOWN  &kp RIGHT      &kp COLON          &kp UNDERSCORE
+&trans     &kp MINUS  &kp UNDERSCORE  &kp LBKT   &kp RBKT    &txt_farrow    &trans  &trans  &trans  &trans  &trans  &trans  &txt_larrow   &txt_rarrow   &kp LT    &kp GT         &kp DOUBLE_QUOTES  &trans
+&trans     &trans     &trans          &trans     &trans                     &trans  &trans  &trans  &trans  &trans  &trans                &trans        &trans    &trans         &trans             &trans
             >;
         };
 
