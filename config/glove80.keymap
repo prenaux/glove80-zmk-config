@@ -282,8 +282,8 @@
             bindings = <
 &trans     &trans         &trans        &trans     &trans                                                                                &trans       &trans    &trans     &trans        &trans
 &kp GRAVE  &kp EXCL       &kp AT        &kp POUND  &kp DOLLAR  &kp PERCENT                                                  &kp CARET    &kp AMPS     &kp STAR  &kp LPAR   &kp RPAR      &trans
-&kp TILDE  &kp BACKSLASH  &kp UNDER     &kp LPAR   &kp RPAR    &kp EQUAL                                                    &kp PG_UP    &kp HOME     &kp UP    &kp END    &txt_colcol   &trans
-&trans     &kp PIPE       &kp MINUS     &kp LBRC   &kp RBRC    &kp PLUS                                                     &kp PG_DN    &kp LEFT     &kp DOWN  &kp RIGHT  &kp COLON     &trans
+&kp TILDE  &kp BACKSLASH  &kp UNDER     &kp LPAR   &kp RPAR    &kp PLUS                                                     &kp PG_UP    &kp HOME     &kp UP    &kp END    &txt_colcol   &trans
+&trans     &kp PIPE       &kp MINUS     &kp LBRC   &kp RBRC    &kp EQUAL                                                    &kp PG_DN    &kp LEFT     &kp DOWN  &kp RIGHT  &kp COLON     &trans
 &trans     &kp SLASH      &kp QUESTION  &kp LBKT   &kp RBKT    &txt_farrow  &trans  &trans  &trans  &trans  &trans  &trans  &txt_larrow  &txt_rarrow  &kp LT    &kp GT     &kp QUESTION  &trans
 &trans     &trans         &trans        &trans     &trans                   &trans  &trans  &trans  &trans  &trans  &trans               &trans       &trans    &trans     &trans        &trans
             >;
